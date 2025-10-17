@@ -11,8 +11,8 @@ https://my-profile-card-beta.vercel.app/
 https://github.com/Drk-codey/My-ProfileCard.git
 
 ## Run Locally
-1. Clone the repository - git clone https://github.com/Drk-codey/My-ProfileCard.git
-2. Navigate to the project directory - cd My-ProfileCard
+1. Clone the repository - ```git clone https://github.com/Drk-codey/My-ProfileCard.git```
+2. Navigate to the project directory - ```cd My-ProfileCard```
 3. Open `index.html` in your browser
 
 
