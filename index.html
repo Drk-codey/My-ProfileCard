@@ -8,18 +8,16 @@
 </head>
 <body>
   <article class="profile-card" data-testid="test-profile-card">
-    <header class="profile-content header-section">
-      <div class="avatar-section">
-        <figure class="avatar-figure">
-          <img 
-              src="img/Samuel.jpeg" 
-              alt="Profile picture"
-              class="avatar-img"
-              data-testid="test-user-avatar"
-          />
-          <figcaption class="avater-caption">Profile Photo</figcaption>
-        </figure>
-      </div>
+    <div class="header-section">
+      <figure class="avatar-figure">
+        <img 
+            src="img/Samuel.jpeg" 
+            alt="Profile picture"
+            class="avatar-img"
+            data-testid="test-user-avatar"
+        />
+        <figcaption class="avater-caption">Profile Photo</figcaption>
+      </figure>
     
       <div class="profile-info">
         <h2 class="user-name" data-testid="test-user-name">Ogunlade Kayode</h2>
@@ -33,61 +31,67 @@
           <span data-testid="test-user-time" id="user-time"></span>
         </p>
       </div>
-    </header>
+    </div>
 
-
-
-      <nav class="social-nav" aria-label="Social media links" data-testid="test-user-social-links">
-        <a 
-            href="https://twitter.com/crypt_luxe" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="social-link"
-            data-testid="test-user-social-twitter"
+    <nav class="social-nav" aria-label="Social media links" data-testid="test-user-social-links">
+      <ul class="social-list">
+      <li>
+          <a 
+          href="https://twitter.com/crypt_luxe" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="social-link"
+          data-testid="test-user-social-twitter"
         >
           Twitter
         </a>
+      </li>
+      <li>
         <a 
-            href="https://github.com/Drk-codey" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="social-link"
-            data-testid="test-user-social-github"
+          href="https://github.com/Drk-codey" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="social-link"
+          data-testid="test-user-social-github"
         >
           GitHub
         </a>
+      </li>
+      <li>
         <a 
-            href="https://www.linkedin.com/in/kayode-ogunlade/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="social-link"
-            data-testid="test-user-social-linkedin"
+          href="https://www.linkedin.com/in/kayode-ogunlade/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="social-link"
+          data-testid="test-user-social-linkedin"
         >
           LinkedIn
         </a>
-      </nav>
+      </li>
+      </ul>
+    </nav>
 
-      <div class="lists-container">
-        <section class="list-section hobbies-section">
-          <h3 class="section-title">Hobbies</h3>
-          <ul class="list" data-testid="test-user-hobbies">
-            <li class="list-item">Reading Books</li>
-            <li class="list-item">Coding</li>
-            <li class="list-item">Gaming</li>
-            <li class="list-item">Watching movies</li>
-          </ul>
-        </section>
-            
-        <section class="list-section dislikes-section">
-        <h3 class="section-title">Dislikes</h3>
-        <ul class="list" data-testid="test-user-dislikes">
-            <li class="list-item">Lagging devices</li>
-            <li class="list-item">Disturbance</li>
-            <li class="list-item">Traffic</li>
-            <li class="list-item">Slow internet</li>
-          </ul>
-        </section>
-      </div>
+    <div class="lists-container">
+      <section class="list-section hobbies-section">
+        <h3 class="section-title">Hobbies</h3>
+        <ul class="list" data-testid="test-user-hobbies">
+          <li class="list-item">Reading Books</li>
+          <li class="list-item">Coding</li>
+          <li class="list-item">Gaming</li>
+          <li class="list-item">Watching movies</li>
+        </ul>
+      </section>
+          
+      <section class="list-section dislikes-section">
+      <h3 class="section-title">Dislikes</h3>
+      <ul class="list" data-testid="test-user-dislikes">
+          <li class="list-item">Lagging devices</li>
+          <li class="list-item">Disturbance</li>
+          <li class="list-item">Traffic</li>
+          <li class="list-item">Slow internet</li>
+        </ul>
+      </section>
+    </div>
   </article>
 
   <script src="script.js"></script>
