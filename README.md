@@ -4,9 +4,11 @@ An Accessible, responsive profile card with all required test IDs for automated 
 
 ## Live Demo
 
+https://my-profile-card-beta.vercel.app/
+
 ## Repository
 
-[text](https://github.com/Drk-codey/My-ProfileCard.git)
+https://github.com/Drk-codey/My-ProfileCard.git
 
 ## Run Locally
 1. Clone the repository - git clone https://github.com/Drk-codey/My-ProfileCard.git
