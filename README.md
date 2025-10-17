@@ -18,7 +18,7 @@ https://github.com/Drk-codey/My-ProfileCard.git
 
 ## Features
 
-- Semantic HTML - Proper use of semantic elements (<article>, <header>, <figure>, <nav>, <section>)
+- Semantic HTML - Proper use of semantic elements (```<article>```, ```<header>```, ```<figure>```, ```<nav>```, ```<section>```)
 
 - Accessibility - Keyboard navigation, focus indicators, ARIA labels, and proper alt text
 
